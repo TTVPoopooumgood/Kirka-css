@@ -94,8 +94,8 @@ Array.from(boxes).forEach((element) =>{
 
 
 document.querySelector(".playsong").addEventListener('click',(e)=>{ 
-    if(e.target.innerText === "?"){
-    e.target.innerText = '????';
+    if(e.target.innerText === "We just make some css things for kirka that is it ..."){
+    e.target.innerText = 'Button? Sound????';
     music.play();
     
     
